@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    flex-direction: column;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+    height: 50vh;
+    border: 1px solid #ccc;
+}
+
+.array-bar {
+    background-color: #007bff;
+    margin: 0 2px;
+    width: calc(100% / 50 - 4px); /* Adjusting width for 50 bars with margins */
+    transition: height 0.2s ease;
+}
